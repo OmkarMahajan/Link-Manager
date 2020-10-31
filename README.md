@@ -42,3 +42,15 @@ People can contribute to this project and they can report the bugs to <a href="m
 * XAML
 * Material Design
 * XmlDocument (For saving Downloads)
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+Install the application from the Package Folder. 
+If you add some changes into project you can create packge by right click on project and click on publish choose Debug / Release Mode. That's it Package is created.
+
+### Prerequisites
+* OOP Language like Java / C#
+
+### Installation
+Download the project and inside that follow the path Link-Manager\IDM\IDM\bin
