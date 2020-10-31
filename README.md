@@ -33,5 +33,12 @@ Features Of Link Manger:
 * Resume Capacity for Downloads
 * Quick Access Menu
 
-People can contribute to this project and they can report the bugs to <a href="mailto:omkarm56@mail.com">Email</a> or they can make push request to my github profile.
+People can contribute to this project and they can report the bugs to <a href="mailto:omkarm56@mail.com">My Email</a> or they can make push request to my github profile.
 </p>
+
+## Built With
+* WPF (Windows Presentation Foundation)
+* C#
+* XAML
+* Material Design
+* XmlDocument (For saving Downloads)
