@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfNavigationDrawer.XForms.UWP</name>
+    </assembly>
+    <members>
+        <member name="M:DrawerForms.UWP.Mapping.DrawerSettingsMapping.GetDrawerSettings(Syncfusion.SfNavigationDrawer.XForms.DrawerSettings,Syncfusion.SfNavigationDrawer.XForms.SfNavigationDrawer,Syncfusion.UI.Xaml.NavigationDrawer.DrawerSettings)">
+            <summary>
+            method to get the secondary drawer values
+            </summary>
+            <param name="formsDrawerSettings"></param>
+            <param name="nativeDrawerSettings"></param>
+            <param name="_width"></param>
+            <param name="_height"></param>
+        </member>
+        <member name="M:DrawerForms.UWP.Mapping.DrawerSettingsMapping.SetParentforView(Xamarin.Forms.View,Syncfusion.SfNavigationDrawer.XForms.SfNavigationDrawer)">
+            <summary>
+            Sets the parent for forms view
+            </summary>
+            <param name="view"></param>
+            <param name="navigationDrawer"></param>
+        </member>
+        <member name="M:DrawerForms.UWP.Mapping.DrawerSettingsMapping.SetInternalProperty(Syncfusion.UI.Xaml.NavigationDrawer.DrawerSettings,System.String,System.Object)">
+            <summary>
+            Set internal value to native
+            </summary>
+            <param name="nativeDrawerSettings"></param>
+            <param name="propertyName"></param>
+            <param name="value"></param>
+        </member>
+        <member name="T:Syncfusion.SfNavigationDrawer.XForms.UWP.SfNavigationDrawerMapping">
+            <summary>
+            SfNavigation Drawer mapping.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.XForms.UWP.SfNavigationDrawerMapping.navigationDrawer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.XForms.UWP.SfNavigationDrawerMapping.OnNavigationDrawerPropertiesChanged(System.String,Syncfusion.SfNavigationDrawer.XForms.SfNavigationDrawer,Syncfusion.UI.Xaml.NavigationDrawer.SfNavigationDrawer)">
+            <summary>
+            
+            </summary>
+            <param name="propertyName"></param>
+            <param name="formsnavigationDrawer"></param>
+            <param name="nativenavigationDrawer"></param>
+        </member>
+        <member name="T:Syncfusion.SfNavigationDrawer.XForms.UWP.SfNavigationDrawerRenderer">
+            <summary>
+            SfNavigationDrawer renderer.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.XForms.UWP.SfNavigationDrawerRenderer.formsNavigationDrawer">
+            <summary>
+            The busy indicator.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.XForms.UWP.SfNavigationDrawerRenderer.isSecondaryDrawer">
+            <summary>
+            isSecondaryDrawer property indicates whether in secondary drawer or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.XForms.UWP.SfNavigationDrawerRenderer.nativeNavigationDrawer">
+            <summary>
+            The native navigationDrawer.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.XForms.UWP.SfNavigationDrawerRenderer.SfNavigationDrawerMapping">
+            <summary>
+            The SfNavigationDrawer mapping.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.XForms.UWP.SfNavigationDrawerRenderer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="!:Syncfusion.SfNavigationDrawer.XForms.WinPhone.SfNavigationDrawerRenderer"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.XForms.UWP.SfNavigationDrawerRenderer.OnElementChanged(Xamarin.Forms.Platform.UWP.ElementChangedEventArgs{Syncfusion.SfNavigationDrawer.XForms.SfNavigationDrawer})">
+            <summary>
+            Raises the element changed event.
+            </summary>
+            <param name="e">E.</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.XForms.UWP.SfNavigationDrawerRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Raises the element property changed event.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="e">E.</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.XForms.UWP.SfNavigationDrawerRenderer.ConvertToNative(Xamarin.Forms.View,Xamarin.Forms.Element)">
+            <summary>
+            Converts to native view.
+            </summary>
+            <returns>The native.</returns>
+            <param name="source">The Source.</param>
+            <param name="valid">The Valid Parameter.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<downloads>
+  <download>
+    <file_name>vlc-3.0.11-win64.exe</file_name>
+    <file_size>41824168</file_size>
+    <file_size_string>39.89 MB</file_size_string>
+    <downloaded_size>7352338</downloaded_size>
+    <size>7.01 MB</size>
+    <percent>17.57916</percent>
+    <percent_string>17.6%</percent_string>
+    <progress>17.57916</progress>
+    <speed></speed>
+    <status>Paused</status>
+    <added_on>12-07-2020 06:44:50</added_on>
+    <completed_on>01-01-0001 00:00:00</completed_on>
+    <url>https://get.videolan.org/vlc/3.0.11/win64/vlc-3.0.11-win64.exe</url>
+    <supports_resume>True</supports_resume>
+    <has_error>False</has_error>
+    <DownloadFolder>C:\Users\omkar\Downloads\\vlc-3.0.11-win64.exe</DownloadFolder>
+    <User_Directory>C:\Users\omkar\Downloads\</User_Directory>
+  </download>
+</downloads>

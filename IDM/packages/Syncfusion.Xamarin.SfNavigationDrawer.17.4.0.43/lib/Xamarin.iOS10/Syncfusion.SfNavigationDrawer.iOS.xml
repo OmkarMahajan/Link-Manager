@@ -1,0 +1,1109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfNavigationDrawer.iOS</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.SfNavigationDrawer.iOS.SFNavigationDrawerPosition">
+            <summary>
+            it is a enum 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SFNavigationDrawerPosition.SFNavigationDrawerPositionLeft">
+            <summary>
+            it is a Position Left enum 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SFNavigationDrawerPosition.SFNavigationDrawerPositionRight">
+            <summary>
+            it is a Position Right enum 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SFNavigationDrawerPosition.SFNavigationDrawerPositionTop">
+            <summary>
+            it is a Position Top enum 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SFNavigationDrawerPosition.SFNavigationDrawerPositionBottom">
+            <summary>
+            it is a Position Bottom enum 
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfNavigationDrawer.iOS.SFNavigationDrawerTransition">
+            <summary>
+            it is a enum 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SFNavigationDrawerTransition.SFNavigationDrawerTransitionSlideOnTop">
+            <summary>
+            it is a TransitionSlide On Top enum 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SFNavigationDrawerTransition.SFNavigationDrawerTransitionPush">
+            <summary>
+            it is a Transition Push enum 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SFNavigationDrawerTransition.SFNavigationDrawerTransitionReveal">
+            <summary>
+            it is a Transition Reveal enum 
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfNavigationDrawer.iOS.SFNavigationDrawer">
+            <summary>
+            Navigation drawer class
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SFNavigationDrawer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfNavigationDrawer.iOS.SFNavigationDrawer" /> class.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfNavigationDrawer.iOS.CancelEventArgs">
+            <summary>
+            Cancel Event args 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.CancelEventArgs.cancel">
+            <summary>
+            Cancel field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.CancelEventArgs.isSecondaryDrawer">
+            <summary>
+            is Secondary Drawer field
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.CancelEventArgs.IsSecondaryDrawer">
+            <summary>
+            Gets or sets a value indicating whether true or false for Cancel Property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.CancelEventArgs.Cancel">
+            <summary>
+            Gets or sets a value indicating whether true or false for Cancel Property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfNavigationDrawer.iOS.ToggledEventArgs">
+            <summary>
+            Cancel Event args 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.ToggledEventArgs.isOpen">
+            <summary>
+            Cancel field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.ToggledEventArgs.isSecondaryDrawer">
+            <summary>
+            Cancel field.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.ToggledEventArgs.IsSecondaryDrawer">
+            <summary>
+            Gets or sets a value indicating whether true or false for Cancel Property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.ToggledEventArgs.IsOpen">
+            <summary>
+            Gets or sets a value indicating whether true or false for Cancel Property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer">
+            <summary>
+            Navigation drawer class
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.contentView">
+            <summary>
+            Content field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.automationId">
+            <summary>
+            AutomationId field
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.drawerContentView">
+            <summary>
+            Drawer content view.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.drawerHeaderView">
+            <summary>
+            Drawer Header view.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.drawerFooterView">
+            <summary>
+            Drawer footer view.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.cancelEventArgs">
+            <summary>
+            Cancel event args field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.toggledEventArgs">
+            <summary>
+            Toggled event args field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.panGesture">
+            <summary>
+            Gesture field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.tapGesture">
+            <summary>
+            Tap gesture field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.sectapGesture">
+            <summary>
+            Secondary Tap gesture field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.drawerRect">
+            <summary>
+            Draw field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.draweview">
+            <summary>
+            Draw view field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.grayview">
+            <summary>
+            Gray view field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.touchThreshold">
+            <summary>
+            Touch Threshold field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.animationDuration">
+            <summary>
+            Animation duration field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.drawerHeight">
+            <summary>
+            Drawer height field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.drawerWidth">
+            <summary>
+            Drawer width field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.drawerHeaderHeight">
+            <summary>
+            Drawer Header Height field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.drawerFooterHeight">
+            <summary>
+            Drawer Footer Height field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.isOpen">
+            <summary>
+            Is open field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.isEnableSwipeGesture">
+            <summary>
+            Is Enable Swipe Gesture field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.position">
+            <summary>
+            Position field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.transition">
+            <summary>
+            Transition field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secdrawerContentView">
+            <summary>
+            SecondaryDrawer content view.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secdrawerHeaderView">
+            <summary>
+            SecondaryDrawer Header view.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secdrawerFooterView">
+            <summary>
+            SecondaryDrawer footer view.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secdrawerRect">
+            <summary>
+            SecondaryDraw field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secdraweview">
+            <summary>
+            SecondaryDraw view field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.sectouchThreshold">
+            <summary>
+            SecondaryTouch Threshold field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secanimationDuration">
+            <summary>
+            SecondaryAnimation duration field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secdrawerHeight">
+            <summary>
+            SecondaryDrawer height field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secdrawerWidth">
+            <summary>
+            SecondaryDrawer width field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secdrawerHeaderHeight">
+            <summary>
+            SecondaryDrawer Header Height field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secdrawerFooterHeight">
+            <summary>
+            SecondaryDrawer Footer Height field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secisOpen">
+            <summary>
+            SecondaryIs open field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secisEnableSwipeGesture">
+            <summary>
+            Secondary Is Enable Swipe Gesture field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secposition">
+            <summary>
+            SecondaryPosition field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.sectransition">
+            <summary>
+            Secondary Transition field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.defaultDrawerSettings">
+            <summary>
+            The settings of the Default drawer properties
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secondaryDrawerSettings">
+            <summary>
+            The settings of the Secondary drawer properties
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secnewOrigin">
+            <summary>
+            New SecondaryOrigin field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secminOrigin">
+            <summary>
+            SecondaryMinimum field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secmaxOrigin">
+            <summary>
+            Secondary maximum origin field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secpanInfoVelocity">
+            <summary>
+            Secondary Information velocity field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secnewFrame">
+            <summary>
+            Secondary New frame field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secmenuFrameAtStartOfPan">
+            <summary>
+            Secondary Menu frame at start of pan field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secmenuFrameAtStartOfPan1">
+            <summary>
+            Secondary Menu frame at start of pan1 field. 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.newOrigin">
+            <summary>
+            New Origin field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.minOrigin">
+            <summary>
+            Minimum field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.maxOrigin">
+            <summary>
+            maximum origin field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.panInfoVelocity">
+            <summary>
+            Information velocity field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.newFrame">
+            <summary>
+            New frame field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.menuFrameAtStartOfPan">
+            <summary>
+            Menu frame at start of pan field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.menuFrameAtStartOfPan1">
+            <summary>
+            Menu frame at start of pan1 field. 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.deviceRotatedObserver">
+            <summary>
+            Device rotated observer field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.isXFormsiOS">
+            <summary>
+            forms IOS field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.insideFrist">
+            <summary>
+            insideFrist field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.insideSecond">
+            <summary>
+            insideSecond field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.isRotated">
+            <summary>
+            IsRotated field.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.#ctor(System.IntPtr)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer" /> class.
+            </summary>
+            <param name="handle">Handle type</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer" /> class.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DidOpenEventHandler">
+            <summary>
+            Represents the method that will handle the SfNavigationDrawers Drawer opening event
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="T:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.OpeningEventHandler">
+            <summary>
+            Opening event handler.
+            </summary>
+            <param name="sender">Object type</param>
+            <param name="e">Event args</param>
+        </member>
+        <member name="T:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.ClosingEventHandler">
+            <summary>
+            Closing event handler.
+            </summary>
+            <param name="sender">Object type</param>
+            <param name="e">Cancel Event args</param>
+        </member>
+        <member name="T:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DidCloseEventHandler">
+            <summary>
+            Represents the method that will handle the  the SfNavigationDrawers Drawer closing event
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="E:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DidOpen">
+            <summary>
+            Occurs when drawer opened.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.Opening">
+            <summary>
+            Occurs when opening.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.Closing">
+            <summary>
+            Occurs when drawer opened.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DidClose">
+            <summary>
+            Occurs when drawer closed.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DrawerContentView">
+            <summary>
+            Gets or sets the value of Drawer content view
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DrawerHeaderView">
+            <summary>
+            Gets or sets the value of Drawer Header view property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DrawerFooterView">
+            <summary>
+            Gets or sets the Drawer Footer view property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.TouchThreshold">
+            <summary>
+            Gets or sets the value of Touch threshold property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.AnimationDuration">
+            <summary>
+            Gets or sets the value of Animation Duration 
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DrawerHeight">
+            <summary>
+            Gets or sets the Drawer Height property. 
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DrawerWidth">
+            <summary>
+            Gets or sets the value of Drawer Width property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DrawerHeaderHeight">
+            <summary>
+            Gets or sets the value of Drawer Header Height property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DrawerFooterHeight">
+            <summary>
+            Gets or sets the value of Drawer Footer height property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.Frame">
+            <summary>
+            Gets or sets the value of Frame property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.IsOpen">
+            <summary>
+            Gets or sets a value indicating whether the value of Is open property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.IsEnableSwipeGesture">
+             <summary>
+            Gets or sets a value indicating whether of IS enable Swipe Gesture property.
+             </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.ContentView">
+            <summary>
+            Gets or sets the value of Content view property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.Position">
+            <summary>
+            Gets or sets the value of position property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.Transition">
+            <summary>
+            Gets or sets the value of Transition property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DefaultDrawerSettings">
+            <summary>
+            Gets or sets a value indicating whether a DefaultDrawerSettings for Drawer.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecondaryDrawerSettings">
+            <summary>
+            Gets or sets a value indicating whether a DefaultDrawerSettings for Drawer.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.IsXFormsiOS">
+            <summary>
+            Gets or sets a value indicating whether of XFORMS IOS property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.AutomationId">
+            <summary>
+            Gets or sets the AutomationId
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.TapGesture">
+            <summary>
+            Gets or sets the value of Tap Gesture property
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.PanGesture">
+            <summary>
+            Gets or sets the value of Pan gesture property
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecTapGesture">
+            <summary>
+            Gets or sets the value of Tap Gesture property
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecDrawerContentView">
+            <summary>
+            Gets or sets the value of Secondary Drawer content view
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecDrawerHeaderView">
+            <summary>
+            Gets or sets the value of Secondary Drawer Header view
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecDrawerFooterView">
+            <summary>
+            Gets or sets the value of Secondary Drawer footer view
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecTouchThreshold">
+            <summary>
+            Gets or sets the value of Touch threshold property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecAnimationDuration">
+            <summary>
+            Gets or sets the value of Animation Duration 
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecDrawerHeight">
+            <summary>
+            Gets or sets the Secondary Drawer Height property. 
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecDrawerWidth">
+            <summary>
+            Gets or sets the Secondary drawer Height property. 
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecDrawerHeaderHeight">
+            <summary>
+            Gets or sets the value of Secondary Drawer Header Height property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecDrawerFooterHeight">
+            <summary>
+            Gets or sets the value of Drawer Footer height property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecIsOpen">
+            <summary>
+            Gets or sets a value indicating whether the value of Is open property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecIsEnableSwipeGesture">
+             <summary>
+            Gets or sets a value indicating whether of IS enable Swipe Gesture property.
+             </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecPosition">
+            <summary>
+            Gets or sets the value of position property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecTransition">
+            <summary>
+            Gets or sets the value of Transition property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.ToggleDrawer">
+            <summary>
+            Toggle drawer method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.ToggleSecondaryDrawer">
+            <summary>
+            Secondary Toggle drawer method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.AwakeFromNib">
+            <summary>
+            The method overrides the AwakeFromNib
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.LayoutSubviews">
+            <summary>
+            Invoked when the layout gets changed.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.UpdateControl">
+            <summary>
+            UpdateControl method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.isMenuOpen">
+            <summary>
+            Is menu open method.
+            </summary>
+            <returns>Drawer view</returns>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.isSecMenuOpen">
+            <summary>
+            Is menu open method.
+            </summary>
+            <returns>Drawer view</returns>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.isPointContainedWithinBezelRect(CoreGraphics.CGPoint)">
+            <summary>
+            Is point contained method. 
+            </summary>
+            <param name="point">CG point</param>
+            <returns>Return value</returns>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.Dispose(System.Boolean)">
+            <summary>
+            Represents the dispose method
+            </summary>
+            <param name="disposing">Disposing value</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.OnDrawerOpened(System.Object,System.EventArgs)">
+            <summary>
+            Raises the drawer opening.
+            </summary>
+            <param name="sender">Object type</param>
+            <param name="args">Event Arguments.</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.OnOpening(System.Object,Syncfusion.SfNavigationDrawer.iOS.CancelEventArgs)">
+            <summary>
+            On opening method.
+            </summary>
+            <param name="sender">Sender Type.</param>
+            <param name="args">Event Arguments.</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.OnClosing(System.Object,Syncfusion.SfNavigationDrawer.iOS.CancelEventArgs)">
+            <summary>
+            On closing method.
+            </summary>
+            <param name="sender">Sender Type</param>
+            <param name="args">Event Arguments.</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.OnDrawerClosed(System.Object,System.EventArgs)">
+            <summary>
+            Raises the drawer closing.
+            </summary>
+            <param name="sender">Sender value</param>
+            <param name="args">Event Arguments.</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DeviceRotated(Foundation.NSNotification)">
+            <summary>
+            Device rotated method.
+            </summary>
+            <param name="notification">Notification type</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.slideMenuForGestureRecognizer(UIKit.UIGestureRecognizer,CoreGraphics.CGPoint)">
+            <summary>
+            Slide menu for gesture recognizer method.
+            </summary>
+            <param name="gesture">Gesture Recognizer type</param>
+            <param name="point">CG point type.</param>
+            <returns>return slide</returns>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.addGestures">
+            <summary>
+            Add gesture method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.grayView">
+            <summary>
+            Gray view method.
+            </summary>
+            <returns>return gray view</returns>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.draweView">
+            <summary>
+            Draw view method.
+            </summary>
+            <returns>draw view value</returns>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secdraweView">
+            <summary>
+            Secondary Draw view method.
+            </summary>
+            <returns>draw view value</returns>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.toggleDrawer(System.nfloat)">
+            <summary>
+            Toggle Drawer method.
+            </summary>
+            <param name="velocity">Float type</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.sectoggleDrawer(System.nfloat)">
+            <summary>
+            Secondary Toggle Drawer method.
+            </summary>
+            <param name="velocity">Float type</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.isMenuHidden">
+            <summary>
+            IS menu Hidden method.
+            </summary>
+            <returns>Drawer view frame</returns>    
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.changeOpacity">
+            <summary>
+            Change opacity method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.changeSecOpacity">
+            <summary>
+            Change opacity method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.HandleAction">
+            <summary>
+            Handle action method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.isPointContainedWithinMenuRect(CoreGraphics.CGPoint)">
+            <summary>
+            Is point contained With in menu method.
+            </summary>
+            <param name="point">CG point</param>
+            <returns>point value.</returns>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.isSecPointContainedWithinMenuRect(CoreGraphics.CGPoint)">
+            <summary>
+            Is point contained With in menu method.
+            </summary>
+            <param name="point">CG point</param>
+            <returns>point value.</returns>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.applyTranslation(CoreGraphics.CGPoint,CoreGraphics.CGRect)">
+            <summary>
+            Apply Translation method.
+            </summary>
+            <param name="translation">CG point</param>
+            <param name="Frame">CG type</param>
+            <returns>return new frame</returns>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.applySecTranslation(CoreGraphics.CGPoint,CoreGraphics.CGRect)">
+            <summary>
+            Apply Translation method.
+            </summary>
+            <param name="translation">CG point</param>
+            <param name="Frame">CG type</param>
+            <returns>return new frame</returns>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.setMinMaxValue(System.nfloat,System.nfloat)">
+            <summary>
+            Set Minimum and maximum
+            </summary>
+            <param name="min">Minimum value</param>
+            <param name="max">Maximum value</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.setSecMinMaxValue(System.nfloat,System.nfloat)">
+            <summary>
+            Set Minimum and maximum
+            </summary>
+            <param name="min">Minimum value</param>
+            <param name="max">Maximum value</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.endOrigin">
+            <summary>
+            End origin method
+            </summary>
+            <returns>Content view</returns>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secendOrigin">
+            <summary>
+            Secondary End origin method
+            </summary>
+            <returns>Content view</returns>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.panResultInfoForVelocity(CoreGraphics.CGPoint)">
+            <summary>
+            Pan Result for velocity
+            </summary>
+            <param name="velocity">CG point</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secpanResultInfoForVelocity(CoreGraphics.CGPoint)">
+            <summary>
+            Pan Result for velocity
+            </summary>
+            <param name="velocity">CG point</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.openDrawerOnPanning(System.nfloat)">
+            <summary>
+            Open Drawer on panning method.
+            </summary>
+            <param name="velocity">Float type</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.openSecDrawerOnPanning(System.nfloat)">
+            <summary>
+            Open Drawer on panning method.
+            </summary>
+            <param name="secvelocity">Float type</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.closeDrawerOnPanning(System.nfloat)">
+            <summary>
+            Close Drawer On panning method.
+            </summary>
+            <param name="velocity">Float type.</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.closeSecDrawerOnPanning(System.nfloat)">
+            <summary>
+            Close Drawer On panning method.
+            </summary>
+            <param name="secvelocity">Float type.</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.setDrawerRect(CoreGraphics.CGRect)">
+            <summary>
+            Set Drawer method.
+            </summary>
+            <param name="drawerRect">CG type</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.setSecDrawerRect(CoreGraphics.CGRect)">
+            <summary>
+            Set secondary Drawer method.
+            </summary>
+            <param name="secdrawerRect">CG type</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.OnAutomationIdChanged">
+            <summary>
+            Automation id changed method
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.addShadowToMenuView">
+            <summary>
+            Add Shadow to Menu view method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.secaddShadowToMenuView">
+            <summary>
+            Add Shadow to Menu view method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.disableContentInteraction">
+            <summary>
+            Disable Content Interaction method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.enableContentInteraction">
+            <summary>
+            Enable interaction method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.OnDefaultDrawerSettingsChanged">
+            <summary>
+            Sets the default drawer setting value to the respective API's
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.OnSecondaryDrawerSettingsChanged">
+            <summary>
+            .Sets the secondary drawer setting value to the respective API's
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.DefaultDrawerSettings_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Notify method when any API is changed in the Default Drawer settings.
+            </summary>
+            <param name="sender">Drawer Settings</param>
+            <param name="e">Property Name</param>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.SfNavigationDrawer.SecondaryDrawerSettings_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Notify method when any API is changed in the Default Drawer settings.
+            </summary>
+            <param name="sender">Drawer Settings</param>
+            <param name="e">Property Name</param>
+        </member>
+        <member name="T:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings">
+            <summary>
+            Navigation drawer setting class
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.drawerContentView">
+            <summary>
+            Drawer content view.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.drawerHeaderView">
+            <summary>
+            Drawer Header view.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.drawerFooterView">
+            <summary>
+            Drawer footer view.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.touchThreshold">
+            <summary>
+            Touch Threshold field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.drawerHeight">
+            <summary>
+            Drawer height field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.contentBackgroundColor">
+            <summary>
+            Drawer background color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.drawerWidth">
+            <summary>
+            Drawer width field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.drawerHeaderHeight">
+            <summary>
+            Drawer Header Height field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.drawerFooterHeight">
+            <summary>
+            Drawer Footer Height field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.isEnableSwipeGesture">
+            <summary>
+            Is Enable Swipe Gesture field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.isOpen">
+            <summary>
+            Is open field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.animationDuration">
+            <summary>
+            Animation duration field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.position">
+            <summary>
+            Position field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.transition">
+            <summary>
+            Transition field.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings" /> class.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.PropertyChanged">
+            <summary>
+            PropertyChanged field.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.DrawerContentView">
+            <summary>
+            Gets or sets the value of Default Drawer content view
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.DrawerHeaderView">
+            <summary>
+            Gets or sets the value of DefaultDrawer Header view property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.DrawerFooterView">
+            <summary>
+            Gets or sets the DefaultDrawer Footer view property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.TouchThreshold">
+            <summary>
+            Gets or sets the value of Touch threshold property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.DrawerHeight">
+            <summary>
+            Gets or sets the DefaultDrawer Height property. 
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.ContentBackgroundColor">
+            <summary>
+            Gets or sets the background color of the drawer. 
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.DrawerWidth">
+            <summary>
+            Gets or sets the value of DefaultDrawer Width property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.DrawerHeaderHeight">
+            <summary>
+            Gets or sets the value of DefaultDrawer Header Height property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.DrawerFooterHeight">
+            <summary>
+            Gets or sets the value of DefaultDrawer Footer height property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.IsEnableSwipeGesture">
+             <summary>
+            Gets or sets a value indicating whether of IS enable Swipe Gesture property.
+             </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.Position">
+            <summary>
+            Gets or sets the value of position property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.Transition">
+            <summary>
+            Gets or sets the value of Transition property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.AnimationDuration">
+            <summary>
+            Gets or sets the value of Animation Duration 
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.IsOpen">
+            <summary>
+            Gets or sets a value indicating whether the value of Is open property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfNavigationDrawer.iOS.DrawerSettings.RaiseOnPropertyChanged(System.String)">
+            <summary>
+            it is a raise method of property changed event
+            </summary>
+            <param name="propertyName">Property name</param>        
+        </member>
+    </members>
+</doc>

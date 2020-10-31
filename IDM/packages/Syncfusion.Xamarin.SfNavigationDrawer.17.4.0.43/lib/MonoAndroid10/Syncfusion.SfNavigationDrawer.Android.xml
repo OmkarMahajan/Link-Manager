@@ -1,0 +1,2080 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfNavigationDrawer.Android</name>
+    </assembly>
+    <members>
+        <member name="T:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer">
+            <summary>
+            it is a navigation drawer class
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.isOpened">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.isMoving">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.screenWidth">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.screenHeight">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.sumation">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.revSumation">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.actionBarHeight">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.statusBarHeight">
+            <summary>
+            it is a integer variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.navigationBarHeight">
+            <summary>
+            it is a integer variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.drawerLayout">
+            <summary>
+            it is a Drawer Layout variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.mainContentView">
+            <summary>
+            it is a Main Content View variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.automationId">
+            <summary>
+            AutomationId field
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.greyOvelayLayout">
+            <summary>
+            it is a Linear Layout variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.overLayValue">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.prevPosition">
+            <summary>
+            it is a position variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.remainWidth">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.remainHeight">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.mvelocityTracker">
+            <summary>
+            it is a velocity tracker variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.isEdge">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.prevX">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.prevY">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.velocityX">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.velocityY">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.isMouseButtonUp">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.enableSwipeGesture">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.contentView">
+            <summary>
+            it is a view variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.drawerHeaderView">
+            <summary>
+            it is a view variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.drawerFooterView">
+            <summary>
+            it is a view variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.drawerContentView">
+            <summary>
+            it is a view variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.drawerWidth">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.position">
+            <summary>
+            it is a position variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.transition">
+            <summary>
+            it is a transition variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.drawerHeight">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.touchThreshold">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.isOpen">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.animationDuration">
+            <summary>
+            it is a long variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.drawerHeaderHeight">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.drawerFooterHeight">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.screenDensity">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.flag">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.targs">
+            <summary>
+            it is a toggle Event Argument variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.cancelEventArgs">
+            <summary>
+            it is a Cancel Event Argument variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.cancelOpenEventArgs">
+            <summary>
+            it is a Cancel Event Argument variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.cancelCloseEventArgs">
+            <summary>
+            it is a Cancel Event Argument variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.cancelSecondOpenEventArgs">
+            <summary>
+            it is a Cancel Event Argument variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.cancelSecondCloseEventArgs">
+            <summary>
+            it is a Cancel Event Argument variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.downX">
+            <summary>
+            Its is float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.downY">
+            <summary>
+            Its is float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.moveX">
+            <summary>
+            Its is float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.moveY">
+            <summary>
+            Its is float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.estimated_KeyboardDP">
+            <summary>
+            The estimated keyboard dp.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.rect">
+            <summary>
+            The rect.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.isShown">
+            <summary>
+            The is shown.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.heightDiff">
+            <summary>
+            The height diff.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.context1">
+            <summary>
+            The context1.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.estimatedKeyboardHeight">
+            <summary>
+            The height of the estimated keyboard.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.defaultDrawerSettings">
+            <summary>
+            The settings of the drawer properties
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerSettings">
+            <summary>
+            The settings of the drawer properties
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerHeaderView">
+            <summary>
+            The secondary drawer header view.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerFooterView">
+            <summary>
+            The secondary drawer header view.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerContentView">
+            <summary>
+            The secondary drawer header view.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerTouchThreshold">
+            <summary>
+            The secondary drawer touch threshold.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerPosition">
+            <summary>
+            The secondary drawer position.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerTransition">
+            <summary>
+            The secondary drawer transition.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerWidth">
+            <summary>
+            The width of the secondary drawer.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerHeight">
+            <summary>
+            The width of the secondary drawer.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerHeaderHeight">
+            <summary>
+            The width of the secondary drawer.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerFooterHeight">
+            <summary>
+            The width of the secondary drawer.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerLayout">
+            <summary>
+            The secondary drawer layout.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.animationClosed">
+            <summary>
+            IRunnable to be Called after animation
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerIsOpen">
+            <summary>
+            The secondary drawer is open.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerEnableSwipeGesture">
+            <summary>
+            The secondary drawer is open.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.isSecondaryMoving">
+            <summary>
+            The secondary drawer is open.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.isSecondaryOpened">
+            <summary>
+            The secondary drawer is open.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerAnimationDuration">
+            <summary>
+            The duration of the secondary drawer animation.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.prevSecondX">
+            <summary>
+            The previous second x.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.prevSecondY">
+            <summary>
+            The previous second x.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryVelocityX">
+            <summary>
+            The previous second x.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryVelocityY">
+            <summary>
+            The previous second x.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.isSecondaryEdge">
+            <summary>
+            The is secondary edge.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.trackDrawer">
+            <summary>
+            The is secondary edge.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDrawerShown">
+            <summary>
+            The secondary drawer shown.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.remainSecondaryWidth">
+            <summary>
+            The width of the remain secondary.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.remainSecondaryHeight">
+            <summary>
+            The width of the remain secondary.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.actionFirstMoveOpen">
+            <summary>
+            The action first move.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.actionFirstMoveClose">
+            <summary>
+            The action first move.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.actionSecondMoveOpen">
+            <summary>
+            The action second move open.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.actionSecondMoveClose">
+            <summary>
+            The action second move open.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.dragDefaultDrawer">
+            <summary>
+            The drag default drawer.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.dragSecondDrawer">
+            <summary>
+            The drag default drawer.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.delayHandler">
+            <summary>
+            The delay handler.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDelayHandler">
+            <summary>
+            The delay handler.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.delayRunnable">
+            <summary>
+            The delay runnable.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.secondaryDelayRunnable">
+            <summary>
+            The delay runnable.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.contentViewChanged">
+            <summary>
+            content view changed
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.#ctor(Android.Content.Context)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer" /> class.
+            </summary>
+            <param name="context">The first context</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.#ctor(Android.Content.Context,Android.Util.IAttributeSet)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer" /> class.
+            </summary>
+            <param name="context">The second context</param>
+            <param name="attrs">the base</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.#ctor(Android.Content.Context,Android.Util.IAttributeSet,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer" /> class.
+            </summary>
+            <param name="context">The third context</param>
+            <param name="attrs">The base value</param>
+            <param name="defStyle">the style value</param>
+        </member>
+        <member name="E:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.Closed">
+            <summary>
+            it is a closed event
+            </summary>
+        </member>
+        <member name="E:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.Opened">
+            <summary>
+            it is a opened event
+            </summary>
+        </member>
+        <member name="E:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.Toggled">
+            <summary>
+            it is a toggled event
+            </summary>
+        </member>
+        <member name="E:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.Opening">
+            <summary>
+            it is a opening event
+            </summary>
+        </member>
+        <member name="E:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.Closing">
+            <summary>
+            it is a closing event
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.DrawerHeaderView">
+            <summary>
+            Gets or sets a value indicating whether a view property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.DrawerFooterView">
+            <summary>
+            Gets or sets a value indicating whether a view property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.ContentView">
+            <summary>
+            Gets or sets a value indicating whether a view property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.TouchThreshold">
+            <summary>
+            Gets or sets a value indicating whether a double property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.Position">
+            <summary>
+            Gets or sets a value indicating whether a position property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.Transition">
+            <summary>
+            Gets or sets a value indicating whether a transition property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.DrawerContentView">
+            <summary>
+            Gets or sets a value indicating whether a view property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.DrawerWidth">
+            <summary>
+            Gets or sets a value indicating whether a float property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.DrawerHeight">
+            <summary>
+            Gets or sets a value indicating whether a float property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.IsOpen">
+            <summary>
+            Gets or sets a value indicating whether a boolean property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.AnimationDuration">
+            <summary>
+            Gets or sets a value indicating whether a long property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.DrawerHeaderHeight">
+            <summary>
+            Gets or sets a value indicating whether a float property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.DrawerFooterHeight">
+            <summary>
+            Gets or sets a value indicating whether a float property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.EnableSwipeGesture">
+            <summary>
+            Gets or sets a value indicating whether a boolean property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SecondaryDrawerFooterView">
+            <summary>
+            Gets or sets a value indicating whether a view property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SecondaryDrawerTouchThreshold">
+            <summary>
+            Gets or sets a value indicating whether a double property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SecondaryDrawerPosition">
+            <summary>
+            Gets or sets a value indicating whether a position property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SecondaryDrawerTransition">
+            <summary>
+            Gets or sets a value indicating whether a transition property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SecondaryDrawerContentView">
+            <summary>
+            Gets or sets a value indicating whether a view property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SecondaryDrawerWidth">
+            <summary>
+            Gets or sets a value indicating whether a float property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.AutomationId">
+            <summary>
+            Gets or sets the AutomationId
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SecondaryDrawerHeight">
+            <summary>
+            Gets or sets a value indicating whether a float property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SecondaryDrawerIsOpen">
+            <summary>
+            Gets or sets a value indicating whether a boolean property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SecondaryDrawerAnimationDuration">
+            <summary>
+            Gets or sets a value indicating whether a long property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SecondaryDrawerHeaderHeight">
+            <summary>
+            Gets or sets a value indicating whether a float property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SecondaryDrawerFooterHeight">
+            <summary>
+            Gets or sets a value indicating whether a float property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SecondaryDrawerEnableSwipeGesture">
+            <summary>
+            Gets or sets a value indicating whether a boolean property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.DefaultDrawerSettings">
+            <summary>
+            Gets or sets a value indicating whether a DefaultDrawerSettings for Drawer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.NavigationBarHeight">
+            <summary>
+            Gets or sets a value indicating whether determines whether to integer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.IsOpened">
+            <summary>
+            Gets or sets a value indicating whether determines whether to boolean.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.IsMoving">
+            <summary>
+            Gets or sets a value indicating whether determines whether to boolean.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.ScreenWidth">
+            <summary>
+            Gets or sets a value indicating whether determines whether to float.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.ScreenHeight">
+            <summary>
+            Gets or sets a value indicating whether determines whether to float.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.Sumation">
+            <summary>
+            Gets or sets a value indicating whether determines whether to double.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.RevSumation">
+            <summary>
+            Gets or sets a value indicating whether determines whether to double.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.ActionBarHeight">
+            <summary>
+            Gets or sets a value indicating whether determines whether to double.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.StatusBarHeight">
+            <summary>
+            Gets or sets a value indicating whether determines whether to integer.
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.RefreshDrawer">
+            <summary>
+            Its is represent on refresh drawer operation
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.ToggleDrawer">
+            <summary>
+            Its is represent on toggled drawer operation
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.ToggleSecondaryDrawer">
+            <summary>
+            Its is represent on toggled drawer operation
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnInterceptTouchEvent(Android.Views.MotionEvent)">
+            <summary>
+            Its is represent on intercept touch event operation
+            </summary>
+            <param name="ev">the touch e</param>
+            <returns>Its returns boolean variable</returns>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnTouchEvent(Android.Views.MotionEvent)">
+            <summary>
+            Its is represent on touch event operation
+            </summary>
+            <param name="e">The event a</param>
+            <returns>its return boolean variable</returns>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnOpening(Com.Syncfusion.Navigationdrawer.CancelEventArgs)">
+            <summary>
+            Its is represent on opening operation
+            </summary>
+            <param name="args">the opening operation</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnClosing(Com.Syncfusion.Navigationdrawer.CancelEventArgs)">
+            <summary>
+            Its is represent on closing operation
+            </summary>
+            <param name="args">the closing operation</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnOpened(System.EventArgs)">
+            <summary>
+            Its is represent on opened operation
+            </summary>
+            <param name="args">the opened argument</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnClosed(System.EventArgs)">
+            <summary>
+            Its is represent on closed operation
+            </summary>
+            <param name="args">The closed argument</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnToggled(Com.Syncfusion.Navigationdrawer.ToggledEventArgs)">
+            <summary>
+            Its is represent on toggled operation
+            </summary>
+            <param name="args">The toggled argument</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SecondaryShowDrawer(System.Boolean,System.Boolean)">
+            <summary>
+            Calls the animation to close or open Secondary drawer 
+            </summary>
+            <param name="isNeedOpen">Indicates whether to needs to open</param>
+            <param name="isClosing">Indicates whether closing</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.ShowDrawer(System.Boolean,System.Boolean)">
+            <summary>
+            Its is represent shoe drawer operation
+            </summary>
+            <param name="isNeedOpen">The need open</param>
+            <param name="isClosing">Indicates whether closing</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SwipeGrayLayout(System.Boolean)">
+            <summary>
+            Its is represent swipe gray layout operation
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.ActionUpRevealPush(System.Double,System.Double)">
+            <summary>
+            Its is represent Action Up reveal Push operation
+            </summary>
+            <param name="velX">The value x</param>
+            <param name="velY">the value y</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.ActionUpSlidePush(System.Double,System.Double)">
+            <summary>
+             Its is represent Action Up Slide Push operation
+            </summary>
+            <param name="velX">The x</param>
+            <param name="velY">The y</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnSizeChanged(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Represents the size changed method.
+            </summary>
+            <param name="w">The w</param>
+            <param name="h">The h</param>
+            <param name="oldw">The old</param>
+            <param name="oldh">The old h</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnLayout(System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+             Represents the layout method.
+            </summary>
+            <param name="changed">The changed</param>
+            <param name="left">The left</param>
+            <param name="top">The top</param>
+            <param name="right">The right</param>
+            <param name="bottom">The bottom</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnDraw(Android.Graphics.Canvas)">
+            <summary>
+            Represents the draw method.
+            </summary>
+            <param name="canvas">The canvas</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnLoading(Android.Content.Context)">
+            <summary>
+             Its is represent on loading operation
+            </summary>
+            <param name="context">The context</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnHeaderAdded(Android.Views.View)">
+            <summary>
+             Its is represent header added operation
+            </summary>
+            <param name="header">The header</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnFooterChanged(Android.Views.View)">
+            <summary>
+            Its is represent footer changed  operation
+            </summary>
+            <param name="footer">The footer</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnSecondaryHeaderAdded(Android.Views.View)">
+            <summary>
+             Its is represent header added operation
+            </summary>
+            <param name="header">The header</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnSecondaryFooterChanged(Android.Views.View)">
+            <summary>
+            Its is represent footer changed  operation
+            </summary>
+            <param name="footer">The footer</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnMainContentChanged(Android.Views.View)">
+            <summary>
+            Its is represent main content changed operation
+            </summary>
+            <param name="mainContent">The main content</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnPositionChanged(Com.Syncfusion.Navigationdrawer.Position)">
+            <summary>
+            Its is represent position changed operation
+            </summary>
+            <param name="position">The position</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnTransitionChanged(Com.Syncfusion.Navigationdrawer.Transition)">
+            <summary>
+            Its is represent transition changed operation
+            </summary>
+            <param name="transitions">The transition</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnSliderContentChanged(Android.Views.View)">
+            <summary>
+            Its is represent slider content changed operation
+            </summary>
+            <param name="sliderContent">The slider content</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnIsOpenchanged(System.Boolean)">
+            <summary>
+            Its is represent open changed operation
+            </summary>
+            <param name="isOpen">The open</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.CheckPosition(System.Int32)">
+            <summary>
+             Its represent position of default drawer
+            </summary>
+            <param name="positionValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.CheckTransition(System.Int32)">
+            <summary>
+             Its represent transition of default drawer
+            </summary>
+            <param name="transitionValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.InitiateLayout">
+            <summary>
+            Its is represent initiate layout operation
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.HidePush">
+            <summary>
+            Its is represent hide push operation
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.HideReveal">
+            <summary>
+            Its is represent hide reveal operation
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.HideSlide">
+            <summary>
+            Its is represent hide slide operation
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.PushTransition">
+            <summary>
+            Its is represent push transition operation
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.RevealTransition">
+            <summary>
+            Its is represent reveal transition operation
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.SlideTransition">
+            <summary>
+            Its is represent slide transition operation
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.CloseRight(System.Int32)">
+            <summary>
+            Its is represent close right operation
+            </summary>
+            <param name="x">The x</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.OnAutomationIdChanged">
+            <summary>
+            Automation id changed method
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.CloseBottom(System.Int32)">
+            <summary>
+            Its is represent close bottom operation
+            </summary>
+            <param name="y">The parameter y</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.CloseLeft(System.Int32)">
+            <summary>
+            Its is represent close left operation
+            </summary>
+            <param name="x">The x</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.CloseTop(System.Int32)">
+            <summary>
+            Its is represent close top operation
+            </summary>
+            <param name="y">The y</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.DragRight(System.Int32)">
+            <summary>
+            Its is represent drag right operation
+            </summary>
+            <param name="x">The parameter x</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.DragBottom(System.Int32)">
+            <summary>
+            Its is represent drag bottom operation
+            </summary>
+            <param name="y">The y</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.DragLeft(System.Int32)">
+            <summary>
+            Its represent a drag left method.
+            </summary>
+            <param name="x">The x</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.DragTop(System.Int32)">
+            <summary>
+            Its represent Drag top operations
+            </summary>
+            <param name="y">The y</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.GetStatusBarHeight(Android.Content.Context)">
+            <summary>
+            Its is represent a status bar height.
+            </summary>
+            <param name="con">The context</param>
+            <returns>Its return integer variable</returns>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SfNavigationDrawer.GetNavigationBarHeight(Android.Content.Context)">
+            <summary>
+            Its is represent a navigation bar height.
+            </summary>
+            <param name="con">The value</param>
+            <returns>Its return integer variable</returns>
+        </member>
+        <member name="T:Com.Syncfusion.Navigationdrawer.DrawerContentView">
+            <summary>
+            It is a drawer content view class
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.navigationDrawer">
+            <summary>
+            it is a Navigation Drawer variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.mdrawerLayout">
+            <summary>
+            it is a Drawer Layout variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.isXMoving">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.mvelocityTracker">
+            <summary>
+            it is a Velocity Tracker  variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.velocityX">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.velocityY">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.x">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.prevX">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.isSlider">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.y">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.prevY">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.downX">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.downY">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.upX">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.upY">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.offSet">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.isMove">
+            <summary>
+            it is a Velocity Tracker boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerContentView.isSecondaryDrawer">
+            <summary>
+            The is secondary drawer.
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerContentView.#ctor(Android.Content.Context)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.DrawerContentView" /> class.
+            </summary>
+            <param name="context">The context</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerContentView.#ctor(Android.Content.Context,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.DrawerContentView" /> class.
+            </summary>
+            <param name="context">The context</param>
+            <param name="is_SecondaryDrawer">The boolean variable for secondary drawer or not</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerContentView.#ctor(Android.Content.Context,Android.Util.IAttributeSet)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.DrawerContentView" /> class.
+            </summary>
+            <param name="context">The context argument</param>
+            <param name="attrs">The base variable</param>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerContentView.NavigationDrawer">
+            <summary>
+            Gets or sets a value indicating whether determines whether to integer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerContentView.IsXMoving">
+            <summary>
+            Gets or sets a value indicating whether determines whether to boolean.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerContentView.MDrawerLayout">
+            <summary>
+            Gets or sets a value indicating whether determines whether to integer.
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerContentView.OnInterceptTouchEvent(Android.Views.MotionEvent)">
+            <summary>
+            Its represent on intercept Touch Event
+            </summary>
+            <param name="ev">The intercept touch event argument</param>
+            <returns>Its return boolean variable</returns>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerContentView.OnTouchEvent(Android.Views.MotionEvent)">
+            <summary>
+            Its represent on Touch Event
+            </summary>
+            <param name="e">The on touch boolean event</param>
+            <returns>Its return boolean value</returns>
+        </member>
+        <member name="T:Com.Syncfusion.Navigationdrawer.DrawerLayout">
+            <summary>
+            It is a drawer layout class
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.mslideDrawer">
+            <summary>
+            it is a Navigation Drawer variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.header">
+            <summary>
+            it is a view variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.footer">
+            <summary>
+            it is a view variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.contentView">
+            <summary>
+            it is a view variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.headView">
+            <summary>
+            it is a view variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.footView">
+            <summary>
+            it is a Footer View variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.height">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.screenWidth">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.width">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.scaleDensity">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.drawerContentView">
+            <summary>
+            it is a Drawer Content View variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.isSlider">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.fromDrawer">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.isMoving">
+            <summary>
+            it is a long variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.appActivity">
+            <summary>
+            it is a activity variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.mvelocityTracker">
+            <summary>
+            it is a Velocity Tracker variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.velocityX">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.velocityY">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerLayout.isSecondaryDrawer">
+            <summary>
+            The is secondary drawer.
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.#ctor(Android.Content.Context,Com.Syncfusion.Navigationdrawer.SfNavigationDrawer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.DrawerLayout" /> class.
+            </summary>
+            <param name="context">The context</param>
+            <param name="slideDrawer">The slid drawer</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.#ctor(Android.Content.Context,Com.Syncfusion.Navigationdrawer.SfNavigationDrawer,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.DrawerLayout" /> class.
+            </summary>
+            <param name="context">The context</param>
+            <param name="slideDrawer">The slid drawer</param>
+            <param name="is_SecondaryDrawer">The boolean variable for secondary drawer or not</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.#ctor(Android.Content.Context,Android.Util.IAttributeSet,Com.Syncfusion.Navigationdrawer.SfNavigationDrawer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.DrawerLayout" /> class.
+            </summary>
+            <param name="context">The context argument</param>
+            <param name="attrs">The base variable</param>
+            <param name="slideDrawer">The  base slid drawer</param>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerLayout.Header">
+            <summary>
+            Gets or sets a value indicating whether a view property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerLayout.Footer">
+            <summary>
+            Gets or sets a value indicating whether a view property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerLayout.ContentView">
+            <summary>
+            Gets or sets a value indicating whether a view property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerLayout.DrawerContentView">
+            <summary>
+            Gets or sets a value indicating whether determines whether to integer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerLayout.IsSlider">
+            <summary>
+            Gets or sets a value indicating whether determines whether to boolean.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerLayout.FromDrawer">
+            <summary>
+            Gets or sets a value indicating whether determines whether to boolean.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerLayout.IsMoving">
+            <summary>
+            Gets or sets a value indicating whether determines whether to boolean.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerLayout.MSlideDrawer">
+            <summary>
+            Gets or sets a value indicating whether determines whether to integer.
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.DispatchTouchEvent(Android.Views.MotionEvent)">
+            <summary>
+            Its represent Dispatcher Touch Event
+            </summary>
+            <param name="e">the DispatchTouchEvent</param>
+            <returns>Its return boolean variable</returns>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.OnInterceptTouchEvent(Android.Views.MotionEvent)">
+            <summary>
+            Its is represent on intercept touch event
+            </summary>
+            <param name="ev">The intercept touch event argument</param>
+            <returns>Its return boolean variable</returns>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.OnTouchEvent(Android.Views.MotionEvent)">
+            <summary>
+            Its is represent on touch event
+            </summary>
+            <param name="e">The touch event argument e</param>
+            <returns>Its return boolean variable</returns>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.OnLoading(Com.Syncfusion.Navigationdrawer.SfNavigationDrawer)">
+            <summary>
+            Its represent on loading Event
+            </summary>
+            <param name="slideDrawer">The slider drawer</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.AssignActivityFromContext(Android.Content.Context)">
+            <summary>
+            Assigns value to activity from context.
+            </summary>
+            <param name="context">The slider drawer</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.Init">
+            <summary>
+            Its represent method.
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.OnHeaderChanged(Android.Views.View)">
+            <summary>
+            Its represent on header changed Event
+            </summary>
+            <param name="headers">The header</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.OnFooterChanged(Android.Views.View)">
+            <summary>
+            Its represent on footer changed Event
+            </summary>
+            <param name="footers">The footers</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.OnContentChanged(Android.Views.View)">
+            <summary>
+            Its represent on content changed Event
+            </summary>
+            <param name="contentViews">The content view</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.RefreshSlider">
+            <summary>
+            Its represent refresh slider Event
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerLayout.RemovePrevParent(Android.Views.View)">
+            <summary>
+            Its represent remove previous Event
+            </summary>
+            <param name="child">The child</param>
+        </member>
+        <member name="T:Com.Syncfusion.Navigationdrawer.FooterView">
+            <summary>
+            It is a footer view class
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.navigationDrawer">
+            <summary>
+            it is a Navigation Drawer variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.mdrawerLayout">
+            <summary>
+            it is a Drawer Layout variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.isXMoving">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.isSlider">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.mvelocityTracker">
+            <summary>
+            it is a Velocity Tracker  variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.velocityX">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.velocityY">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.x">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.prevX">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.y">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.prevY">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.downX">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.downY">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.upX">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.upY">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.offSet">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.FooterView.isSecondaryDrawer">
+            <summary>
+            The is secondary drawer.
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.FooterView.#ctor(Android.Content.Context)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.FooterView"/> class.
+            </summary>
+            <param name="context">The footer view context</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.FooterView.#ctor(Android.Content.Context,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.FooterView"/> class.
+            </summary>
+            <param name="context">The footer view context</param>
+            <param name="is_SecondaryDrawer">The boolean variable for secondary drawer or not</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.FooterView.#ctor(Android.Content.Context,Android.Util.IAttributeSet)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.FooterView"/> class.
+            </summary>
+            <param name="context">the context</param>
+            <param name="attrs">The FooterView variable</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.FooterView.#ctor(Android.Content.Context,Android.Util.IAttributeSet,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.FooterView"/> class.
+            </summary>
+            <param name="context">The footer view context </param>
+            <param name="attrs">the footer view first argument</param>
+            <param name="defStyleAttr">the footer view second argument</param>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.FooterView.NavigationDrawer">
+            <summary>
+            Gets or sets a value indicating whether determines whether to integer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.FooterView.IsXMoving">
+            <summary>
+            Gets or sets a value indicating whether determines whether to boolean.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.FooterView.MDrawerLayout">
+            <summary>
+            Gets or sets a value indicating whether determines whether to integer.
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.FooterView.OnTouchEvent(Android.Views.MotionEvent)">
+            <summary>
+            Its is represent on touch event operation
+            </summary>
+            <param name="e">on touch event e</param>
+            <returns>its returns boolean variable</returns>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.FooterView.OnInterceptTouchEvent(Android.Views.MotionEvent)">
+            <summary>
+            Its is represent on intercept touch event operation
+            </summary>
+            <param name="ev">The touch Motion Event e</param>
+            <returns>its returns boolean variable</returns>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.FooterView.OnDraw(Android.Graphics.Canvas)">
+            <summary>
+            Its is represent on draw operation
+            </summary>
+            <param name="canvas">The canvas</param>
+        </member>
+        <member name="T:Com.Syncfusion.Navigationdrawer.HeaderView">
+            <summary>
+            It is a header view class
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.navigationDrawer">
+            <summary>
+            it is a Navigation Drawer variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.mdrawerLayout">
+            <summary>
+            it is a Drawer Layout variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.isXMoving">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.mvelocityTracker">
+            <summary>
+            it is a Velocity Tracker  variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.velocityX">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.velocityY">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.x">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.prevX">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.y">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.prevY">
+            <summary>
+            it is a double variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.isSlider">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.downX">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.downY">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.upX">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.upY">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.offSet">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.HeaderView.isSecondaryDrawer">
+            <summary>
+            The is secondary drawer.
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.HeaderView.#ctor(Android.Content.Context)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.HeaderView" /> class.
+            </summary>
+            <param name="context">The HeaderView context</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.HeaderView.#ctor(Android.Content.Context,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.HeaderView" /> class.
+            </summary>
+            <param name="context">The HeaderView context</param>
+            <param name="is_SecondaryDrawer">The boolean variable for secondary drawer or not</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.HeaderView.#ctor(Android.Content.Context,Android.Util.IAttributeSet)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.HeaderView" /> class.
+            </summary>
+            <param name="context">The HeaderView context argument</param>
+            <param name="attrs">The base argument</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.HeaderView.#ctor(Android.Content.Context,Android.Util.IAttributeSet,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.HeaderView" /> class.
+            </summary>
+            <param name="context">The HeaderView context parameter</param>
+            <param name="attrs">The base parameter</param>
+            <param name="defStyleAttr">The style variable</param>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.HeaderView.NavigationDrawer">
+            <summary>
+            Gets or sets a value indicating whether determines whether to integer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.HeaderView.IsXMoving">
+            <summary>
+            Gets or sets a value indicating whether determines whether to boolean.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.HeaderView.MDrawerLayout">
+            <summary>
+            Gets or sets a value indicating whether determines whether to integer.
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.HeaderView.OnInterceptTouchEvent(Android.Views.MotionEvent)">
+            <summary>
+            Its is represent on intercept touch event operation
+            </summary>
+            <param name="ev">The Motion Event e</param>
+            <returns>its returns boolean variable</returns>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.HeaderView.OnTouchEvent(Android.Views.MotionEvent)">
+            <summary>
+            Its is represent on touch event operation
+            </summary>
+            <param name="e">touch event</param>
+            <returns>its returns boolean variable</returns>
+        </member>
+        <member name="T:Com.Syncfusion.Navigationdrawer.MainContentView">
+            <summary>
+            It is a main content view class
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.MainContentView.slideDrawer">
+            <summary>
+            it is a Navigation Drawer variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.MainContentView.isMoving">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.MainContentView.isEdge">
+            <summary>
+            it is a boolean variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.MainContentView.mlayout">
+            <summary>
+            it is a Drawer Layout variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.MainContentView.mdrawerContent">
+            <summary>
+            it is a Drawer Content View variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.MainContentView.x1">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.MainContentView.x2">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.MainContentView.y1">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.MainContentView.y2">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.MainContentView.isSecondEdge">
+            <summary>
+            The is second edge.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.MainContentView.msecondaryDrawerContent">
+            <summary>
+            The content of the m secondary drawer.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.MainContentView.msecondaryLayout">
+            <summary>
+            The m secondary layout.
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.MainContentView.#ctor(Android.Content.Context)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.MainContentView" /> class.
+            </summary>
+            <param name="context">The context</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.MainContentView.#ctor(Android.Content.Context,Android.Util.IAttributeSet)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.MainContentView" /> class.
+            </summary>
+            <param name="context">The context argument</param>
+            <param name="attrs">The base argument</param>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.MainContentView.MdrawerContent">
+            <summary>
+            Gets or sets a value indicating whether determines whether to integer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.MainContentView.MSecondaryDrawerContent">
+            <summary>
+            Gets or sets a value indicating whether determines secondary drawer content
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.MainContentView.SlideDrawer">
+            <summary>
+            Gets or sets a value indicating whether determines whether to integer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.MainContentView.MLayout">
+            <summary>
+            Gets or sets a value indicating whether determines whether to integer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.MainContentView.MSecondaryLayout">
+            <summary>
+            Gets or sets a value indicating whether determines secondary drawer layout
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.MainContentView.OnInterceptTouchEvent(Android.Views.MotionEvent)">
+            <summary>
+            Its is represent on intercept touch event operation
+            </summary>
+            <param name="ev">intercept touch event</param>
+            <returns>its returns boolean variable</returns>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.MainContentView.OnTouchEvent(Android.Views.MotionEvent)">
+            <summary>
+            Its is represent on touch event operation
+            </summary>
+            <param name="e">The touch event e</param>
+            <returns>its returns boolean variable</returns>
+        </member>
+        <member name="T:Com.Syncfusion.Navigationdrawer.SeparatorView">
+            <summary>
+            it is a Separator View class
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.SeparatorView.screenWidth">
+            <summary>
+            it is a float variable
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SeparatorView.#ctor(Android.Content.Context,System.Single)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Com.Syncfusion.Navigationdrawer.SeparatorView" /> class.
+            </summary>
+            <param name="context">The context</param>
+            <param name="width">The width</param>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.SeparatorView.OnDraw(Android.Graphics.Canvas)">
+            <summary>
+            Its is represent on draw operation
+            </summary>
+            <param name="canvas">The canvas</param>
+        </member>
+        <member name="T:Com.Syncfusion.Navigationdrawer.Position">
+            <summary>
+            It is enum class.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.Position.Left">
+            <summary>
+            it is a enum variable
+            </summary>
+            Sets the Drawing pane to left
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.Position.Right">
+            <summary>
+            it is a enum variable
+            </summary>
+            Sets the Drawing pane to Right
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.Position.Top">
+            <summary>
+            it is a enum variable
+            </summary>
+            Sets the Drawing pane to Top
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.Position.Bottom">
+            <summary>
+            it is a enum variable
+            </summary>
+            Sets the Drawing pane to Bottom
+        </member>
+        <member name="T:Com.Syncfusion.Navigationdrawer.Transition">
+            <summary>
+            It is enum class.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.Transition.SlideOnTop">
+            <summary>
+            it is a enum variable
+            </summary>
+            Slides the Drawer on top of main content
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.Transition.Reveal">
+            <summary>
+            it is a enum variable
+            </summary>
+            Main content is moved to reveal drawer content
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.Transition.Push">
+            <summary>
+            it is a enum variable
+            </summary>
+            Both Drawer and Main content Moved in tandem
+        </member>
+        <member name="T:Com.Syncfusion.Navigationdrawer.CancelEventArgs">
+            <summary>
+            Represent the event for cancel event.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.CancelEventArgs.cancel">
+            <summary>
+            Represents the is cancel variable.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.CancelEventArgs.isSecondaryDrawer">
+            <summary>
+            Represents the is secondary drawer variable.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.CancelEventArgs.Cancel">
+            <summary>
+            Gets or sets a value indicating whether a boolean property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.CancelEventArgs.IsSecondaryDrawer">
+            <summary>
+            Gets or sets a value indicating whether a boolean property for secondary drawer.
+            </summary>
+        </member>
+        <member name="T:Com.Syncfusion.Navigationdrawer.ToggledEventArgs">
+            <summary>
+            Represent the event for toggle event.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.ToggledEventArgs.isOpen">
+            <summary>
+            Represents the is open variable.
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.ToggledEventArgs.isSecondaryDrawer">
+            <summary>
+            Represents the is secondary drawer variable.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.ToggledEventArgs.IsOpen">
+            <summary>
+            Gets a value indicating whether a boolean property.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.ToggledEventArgs.IsSecondaryDrawer">
+            <summary>
+            Gets or sets a value indicating whether a boolean property for secondary drawer.
+            </summary>
+        </member>
+        <member name="T:Com.Syncfusion.Navigationdrawer.DrawerSettings">
+            <summary>
+            Drawer settings class for customize the drawer 
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerSettings.enableSwipeGesture">
+            <summary>
+            it is a boolean variable used to enable the swipe
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerSettings.drawerHeaderView">
+            <summary>
+            it is a view variable used to set the drawerHeaderView
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerSettings.drawerFooterView">
+            <summary>
+            it is a view variable used to set the drawer footer view
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerSettings.drawerContentView">
+            <summary>
+            it is a view variable used to set the drawer content view
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerSettings.drawerWidth">
+            <summary>
+            it is a float variable used to set the drawer width
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerSettings.position">
+            <summary>
+            it is a position variable used to set the position
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerSettings.transition">
+            <summary>
+            it is a transition variable used to set the transition
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerSettings.drawerHeight">
+            <summary>
+            it is a float variable used to set the drawer height
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerSettings.touchThreshold">
+            <summary>
+            it is a double variable used to change a touch threshold
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerSettings.isOpen">
+            <summary>
+            it is a boolean variable used to set the open state of the drawer
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerSettings.animationDuration">
+            <summary>
+            it is a long variable used to set the duration of the animation
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerSettings.drawerHeaderHeight">
+            <summary>
+            it is a float variable used to set the drawer header height
+            </summary>
+        </member>
+        <member name="F:Com.Syncfusion.Navigationdrawer.DrawerSettings.drawerFooterHeight">
+            <summary>
+            it is a float variable used to set the drawer footer height
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:Com.Syncfusion.Navigationdrawer.DrawerSettings.contentBackgroundColor" -->
+        <member name="E:Com.Syncfusion.Navigationdrawer.DrawerSettings.PropertyChanged">
+            <summary>
+            it is a property changed event
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.DrawerHeaderView">
+            <summary>
+            Gets or sets a value indicating whether a DrawerHeaderView in DrawerContent.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.DrawerFooterView">
+            <summary>
+            Gets or sets a value indicating whether a DrawerFooterView in DrawerContent.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.TouchThreshold">
+            <summary>
+            Gets or sets a value indicating whether a threshold for swiping
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.Position">
+            <summary>
+            Gets or sets a value indicating whether a position for Drawer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.Transition">
+            <summary>
+            Gets or sets a value indicating whether a transition for Drawer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.IsOpen">
+            <summary>
+            Gets or sets a value indicating whether a Open state for Drawer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.DrawerContentView">
+            <summary>
+            Gets or sets a value indicating whether a DrawerContentView for Drawer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.DrawerWidth">
+            <summary>
+            Gets or sets a value indicating whether a DrawerWidth in Drawer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.DrawerHeight">
+            <summary>
+            Gets or sets a value indicating whether a DrawerHeight in Drawer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.AnimationDuration">
+            <summary>
+            Gets or sets a value indicating whether a Duration for opening and closing the drawer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.ContentBackgroundColor">
+            <summary>
+            Gets or sets a value for drawer background color in Drawer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.DrawerHeaderHeight">
+            <summary>
+            Gets or sets a value indicating whether a DrawerHeaderHeight in Drawer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.DrawerFooterHeight">
+            <summary>
+            Gets or sets a value indicating whether a DrawerFooterHeight in Drawer.
+            </summary>
+        </member>
+        <member name="P:Com.Syncfusion.Navigationdrawer.DrawerSettings.EnableSwipeGesture">
+            <summary>
+            Gets or sets a value indicating whether a swipe of the Drawer.
+            </summary>
+        </member>
+        <member name="M:Com.Syncfusion.Navigationdrawer.DrawerSettings.RaiseOnPropertyChanged(System.String)">
+            <summary>
+            it is a raise method of property changed event
+            </summary>
+            <param name="propertyName">Property name</param>		
+        </member>
+    </members>
+</doc>
